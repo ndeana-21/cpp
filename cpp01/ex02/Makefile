@@ -6,7 +6,7 @@
 #    By: ndeana <ndeana@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/12/08 23:00:11 by ndeana            #+#    #+#              #
-#    Updated: 2020/12/21 03:16:16 by ndeana           ###   ########.fr        #
+#    Updated: 2020/12/08 23:01:58 by ndeana           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,8 +15,8 @@ NAME = Phonebook
 CC = clang++
 FLAGS = -Wall -Wextra -Werror
 
-HEADER = person.hpp
-SRCS = person.cpp main.cpp
+HEADER = Phones_book.hpp PersonClass/Person.hpp
+SRCS = Phones_book.cpp Person_func.cpp
 OBJ = $(SRCS:.cpp=.o)
 
 all:$(NAME)

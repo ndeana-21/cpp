@@ -6,17 +6,17 @@
 #    By: ndeana <ndeana@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/12/08 23:00:11 by ndeana            #+#    #+#              #
-#    Updated: 2020/12/21 03:16:16 by ndeana           ###   ########.fr        #
+#    Updated: 2021/03/17 02:14:12 by ndeana           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = Phonebook
+NAME = replace
 
 CC = clang++
-FLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror -std=c++98
 
-HEADER = person.hpp
-SRCS = person.cpp main.cpp
+HEADER = Replace.hpp
+SRCS = Replace.cpp main.cpp
 OBJ = $(SRCS:.cpp=.o)
 
 all:$(NAME)
